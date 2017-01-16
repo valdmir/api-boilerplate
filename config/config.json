@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "testing_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+
+  "supersecret":"secretkey",
+  "facebookAuth" : {
+      "clientID"      : "1818822935057854",
+      "clientSecret"  : "174f5046f188ed8d2380717e51cdcbc7"
+  },
+  "googleAuth" : {
+      "clientID"      : "your-secret-clientID-here",
+      "clientSecret"  : "your-client-secret-here",
+      "callbackURL"   : "http://localhost:8080/auth/google/callback"
+  }
+}
